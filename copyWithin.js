@@ -8,3 +8,6 @@ let [a, b, c] = myFavLang;
 console.log(a);
 console.log(b);
 console.log(c);
+
+const num2 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(num2.copyWithin(2, 3));
