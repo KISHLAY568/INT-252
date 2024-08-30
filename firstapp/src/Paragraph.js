@@ -5,7 +5,7 @@ function Paragraph() {
 }
 
 function Secondpara() {
-  return <p>This is paragraph 2</p>;
+  return <p className="i">This is paragraph 2</p>;
 }
 function Thirdpara() {
   return <p>This is paragraph 3</p>;
