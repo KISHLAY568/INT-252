@@ -17,12 +17,20 @@
 // reportWebVitals();
 import ReactDOM from "react-dom";
 import React from "react";
+import Navigation from "./Navigation";
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
-const name = "Kishlay";
+// const name = "Kishlay";
+// ReactDOM.render(
+//   <>
+//     <h1>hello {name}</h1>
+//     <p>You are in LPU</p>
+//   </>,
+//   document.getElementById("root")
+// );
+
 ReactDOM.render(
   <>
-    <h1>hello {name}</h1>
-    <p>You are in LPU</p>
+    <Navigation />
   </>,
   document.getElementById("root")
 );
