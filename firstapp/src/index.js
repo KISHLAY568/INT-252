@@ -20,9 +20,9 @@ import React from "react";
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
 const name = "Kishlay";
 ReactDOM.render(
-  <React.Fragment>
+  <>
     <h1>hello {name}</h1>
     <p>You are in LPU</p>
-  </React.Fragment>,
+  </>,
   document.getElementById("root")
 );
