@@ -18,6 +18,8 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import Navigation from "./Navigation";
+import Paragraph from "./Paragraph";
+import Heading from "./Heading";
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
 // const name = "Kishlay";
 // ReactDOM.render(
@@ -31,6 +33,8 @@ import Navigation from "./Navigation";
 ReactDOM.render(
   <>
     <Navigation />
+    <Heading />
+    <Paragraph />
   </>,
   document.getElementById("root")
 );
