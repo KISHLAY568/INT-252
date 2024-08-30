@@ -1,6 +1,7 @@
 import React from "react";
+import './Paragraph.css';
 function Paragraph() {
-  return <p>Kishlay</p>;
+  return <p className="k">Kishlay</p>;
 }
 
 function Secondpara() {

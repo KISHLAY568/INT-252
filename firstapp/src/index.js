@@ -19,7 +19,9 @@ import ReactDOM from "react-dom";
 import React from "react";
 import Navigation from "./Navigation";
 import Paragraph from "./Paragraph";
+import {Secondpara} from "./Paragraph";
 import Heading from "./Heading";
+// import* as ques from './Paragraph';
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
 // const name = "Kishlay";
 // ReactDOM.render(
@@ -35,6 +37,7 @@ ReactDOM.render(
     <Navigation />
     <Heading />
     <Paragraph />
+    <Secondpara/>
   </>,
   document.getElementById("root")
 );
