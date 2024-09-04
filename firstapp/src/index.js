@@ -42,3 +42,5 @@ ReactDOM.render(
   </>,
   document.getElementById("root")
 );
+
+ReactDOM.render(<p>Hello World!</p>, document.getElementById("r"));
