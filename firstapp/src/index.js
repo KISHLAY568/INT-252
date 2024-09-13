@@ -23,6 +23,7 @@ import { Secondpara, Thirdpara } from "./Paragraph";
 import Heading from "./Heading";
 import Hook from "./Hook";
 import Registration from "./Registration";
+import GetTimeButton from "./GetTimeButton";
 // import* as ques from './Paragraph';
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
 // const name = "Kishlay";
@@ -36,7 +37,7 @@ import Registration from "./Registration";
 
 ReactDOM.render(
   <>
-    <Registration />
+    <GetTimeButton />
     {/* <Navigation />
     <Heading />
     <Paragraph />
