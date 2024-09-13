@@ -21,6 +21,8 @@ import Navigation from "./Navigation";
 import Paragraph from "./Paragraph";
 import { Secondpara, Thirdpara } from "./Paragraph";
 import Heading from "./Heading";
+import Hook from "./Hook";
+import Registration from "./Registration";
 // import* as ques from './Paragraph';
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
 // const name = "Kishlay";
@@ -34,13 +36,14 @@ import Heading from "./Heading";
 
 ReactDOM.render(
   <>
-    <Navigation />
+    <Registration />
+    {/* <Navigation />
     <Heading />
     <Paragraph />
     <Secondpara />
-    <Thirdpara />
+    <Thirdpara /> */}
   </>,
   document.getElementById("root")
 );
 
-ReactDOM.render(<p>Hello World!</p>, document.getElementById("r"));
+// ReactDOM.render(<p>Hello World!</p>, document.getElementById("r"));
