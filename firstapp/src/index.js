@@ -18,6 +18,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
+import Img from "./Img";
 import Navigation from "./Navigation";
 import Paragraph from "./Paragraph";
 import { Secondpara, Thirdpara } from "./Paragraph";
@@ -48,12 +49,13 @@ ReactDOM.render(
     <Paragraph />
     <Secondpara />
     <Thirdpara /> */}
-    <ol>
+    {/* <ol>
       <li>{Add(30, 5)}</li>
       <li>{Subtract(30, 5)}</li>
       <li>{Divide(30, 5)}</li>
       <li>{Multiply(30, 5)}</li>
-    </ol>
+    </ol> */}
+    <Img />
   </>,
   document.getElementById("root")
 );
