@@ -17,6 +17,7 @@
 // reportWebVitals();
 import ReactDOM from "react-dom";
 import React from "react";
+import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
 import Navigation from "./Navigation";
 import Paragraph from "./Paragraph";
 import { Secondpara, Thirdpara } from "./Paragraph";
@@ -41,12 +42,18 @@ import Propvalidation from "./propsvalidation";
 ReactDOM.render(
   <>
     {/* <GetTimeButton /> */}
-    <Propvalidation />
+    {/* <Propvalidation /> */}
     {/* <Navigation />
     <Heading />
     <Paragraph />
     <Secondpara />
     <Thirdpara /> */}
+    <ol>
+      <li>{Add(30, 5)}</li>
+      <li>{Subtract(30, 5)}</li>
+      <li>{Divide(30, 5)}</li>
+      <li>{Multiply(30, 5)}</li>
+    </ol>
   </>,
   document.getElementById("root")
 );
