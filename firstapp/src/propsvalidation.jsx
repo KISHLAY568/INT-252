@@ -1,35 +1,58 @@
+import React from "react";
 import PropTypes from "prop-types";
 
-import React from "react";
 function Propvalidation(props) {
   return (
     <>
       <div>
-        <h1></h1>
-        <tr>
-          <td>Array</td>
-          <td>{props.propArray}</td>
-          <td>{props.propArray ? "true" : "FAlse"}</td>
-        </tr>
+        <h1>ReactJS Props validation example</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Value</th>
+              <th>Valid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Boolean</td>
+              <td>{props.propBool ? "True" : "False"}</td>
+              <td>{props.propBool ? "True" : "False"}</td>
+            </tr>
+            <tr>
+              <td>Function</td>
+              <td>{props.propFunc(5)}</td>
+              <td>{props.propFunc(5) ? "True" : "False"}</td>
+            </tr>
+            <tr>
+              <td>String</td>
+              <td>{props.propString}</td>
+              <td>{props.propString ? "True" : "False"}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   );
 }
 
-Propvalidation.prototype = {
+Propvalidation.propTypes = {
   propArray: PropTypes.array.isRequired,
   propBool: PropTypes.bool.isRequired,
   propFunc: PropTypes.func,
   propNumber: PropTypes.number,
-  propString: PropTypes.any,
+  propString: PropTypes.string,
 };
 
-Propvalidation.deafaultProps = {
+Propvalidation.defaultProps = {
   propArray: [1, 2, 3, 4, 5],
   propBool: true,
   propFunc: function (x) {
     return x + 5;
   },
   propNumber: 1,
-  propString: 7,
+  propString: "a",
 };
+
+export default Propvalidation;

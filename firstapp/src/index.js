@@ -24,6 +24,9 @@ import Heading from "./Heading";
 import Hook from "./Hook";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
+import Propvalidation from "./propsvalidation";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
 // import* as ques from './Paragraph';
 // ReactDOM.render(<p>hello</p>,document.getElementById("root"));
 // const name = "Kishlay";
@@ -37,7 +40,8 @@ import GetTimeButton from "./GetTimeButton";
 
 ReactDOM.render(
   <>
-    <GetTimeButton />
+    {/* <GetTimeButton /> */}
+    <Propvalidation />
     {/* <Navigation />
     <Heading />
     <Paragraph />
