@@ -55,7 +55,8 @@ ReactDOM.render(
       <li>{Divide(30, 5)}</li>
       <li>{Multiply(30, 5)}</li>
     </ol> */}
-    <Img />
+    {/* <Img /> */}
+    <Navigation/>
   </>,
   document.getElementById("root")
 );
