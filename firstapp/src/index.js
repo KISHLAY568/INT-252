@@ -56,7 +56,7 @@ ReactDOM.render(
       <li>{Multiply(30, 5)}</li>
     </ol> */}
     {/* <Img /> */}
-    <Navigation/>
+    <Hook/>
   </>,
   document.getElementById("root")
 );

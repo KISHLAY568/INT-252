@@ -24,3 +24,5 @@ const Hook = () => {
     </>
   );
 };
+
+export default Hook;
