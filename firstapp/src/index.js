@@ -17,6 +17,7 @@
 // reportWebVitals();
 import ReactDOM from "react-dom";
 import React from "react";
+import Timer from "./Timer.jsx";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
 import Img from "./Img";
 import Navigation from "./Navigation";
@@ -56,7 +57,7 @@ ReactDOM.render(
       <li>{Multiply(30, 5)}</li>
     </ol> */}
     {/* <Img /> */}
-    <Hook/>
+    <Timer/>
   </>,
   document.getElementById("root")
 );
