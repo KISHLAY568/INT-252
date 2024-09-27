@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 const Hook = () => {
-  const [count, setCount] = useState(100);
+  const [count, setCount] = useState(0);
   useEffect(() => {
     console.log("Document Mount");
   }, []);

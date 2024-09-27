@@ -17,6 +17,7 @@
 // reportWebVitals();
 import ReactDOM from "react-dom";
 import React from "react";
+import Hook from "./Activity5.jsx";
 import Timer from "./Timer.jsx";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
 import Img from "./Img";
@@ -24,7 +25,7 @@ import Navigation from "./Navigation";
 import Paragraph from "./Paragraph";
 import { Secondpara, Thirdpara } from "./Paragraph";
 import Heading from "./Heading";
-import Hook from "./Hook";
+// import Hook from "./Hook";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
 import Propvalidation from "./propsvalidation";
@@ -57,7 +58,7 @@ ReactDOM.render(
       <li>{Multiply(30, 5)}</li>
     </ol> */}
     {/* <Img /> */}
-    <Timer/>
+    <Hook/>
   </>,
   document.getElementById("root")
 );
