@@ -19,6 +19,7 @@ import ReactDOM from "react-dom";
 import React from "react";
 import Hook from "./Activity5.jsx";
 import Useref from "./Regi.jsx";
+import Usereducer from "./Usereducer.jsx";
 import Timer from "./Timer.jsx";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
 import Img from "./Img";
@@ -60,7 +61,7 @@ ReactDOM.render(
     </ol> */}
     {/* <Img /> */}
     {/* <Hook/> */}
-    <Useref />
+    <Usereducer />
   </>,
   document.getElementById("root")
 );
