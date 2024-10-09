@@ -18,6 +18,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import Hook from "./Activity5.jsx";
+import Useref from "./Regi.jsx";
 import Timer from "./Timer.jsx";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
 import Img from "./Img";
@@ -58,7 +59,8 @@ ReactDOM.render(
       <li>{Multiply(30, 5)}</li>
     </ol> */}
     {/* <Img /> */}
-    <Hook/>
+    {/* <Hook/> */}
+    <Useref />
   </>,
   document.getElementById("root")
 );
