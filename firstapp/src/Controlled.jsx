@@ -7,7 +7,22 @@ function Controlled() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(inputValue);
+    console.log("Submitted Value:", inputValue);
   };
+  const a = () => {
+    alert("Form successfully submitted");
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input type="text" value={inputValue} onChange={handleChange} />
+      </label>
+      <button type="submit" onClick={a}>
+        Submit
+      </button>
+    </form>
+  );
 }
 export default Controlled;
