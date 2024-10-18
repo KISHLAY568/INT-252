@@ -21,6 +21,7 @@ import Hook from "./Activity5.jsx";
 import Useref from "./Regi.jsx";
 import Usereducer from "./Usereducer.jsx";
 import LoginForm from "./form.jsx";
+import Formvalidation from "./Formvalidation.jsx";
 import Addition from "./acticity8.jsx";
 import Timer from "./Timer.jsx";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
@@ -63,7 +64,7 @@ ReactDOM.render(
     </ol> */}
     {/* <Img /> */}
     {/* <Hook/> */}
-    <LoginForm />
+    <Formvalidation />
   </>,
   document.getElementById("root")
 );
