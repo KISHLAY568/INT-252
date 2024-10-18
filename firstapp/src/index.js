@@ -22,6 +22,7 @@ import Useref from "./Regi.jsx";
 import Usereducer from "./Usereducer.jsx";
 import LoginForm from "./form.jsx";
 import Formvalidation from "./Formvalidation.jsx";
+import AuthForm from "./activity9.jsx";
 import Addition from "./acticity8.jsx";
 import Timer from "./Timer.jsx";
 import { Add, Subtract, Divide, Multiply } from "./calculator.jsx";
@@ -64,7 +65,8 @@ ReactDOM.render(
     </ol> */}
     {/* <Img /> */}
     {/* <Hook/> */}
-    <Formvalidation />
+    {/* <Formvalidation /> */}
+    <AuthForm />
   </>,
   document.getElementById("root")
 );
