@@ -17,6 +17,32 @@ const Stories = () => {
       console.log(result);
       setData(result);
       setIsLoading(false);
-    } catch (err) {}
+    } catch (err) {
+      setError(err.message);
+      setIsLoading(false);
+    }
   };
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  if (isLoading) {
+    return <h1>Loading...</h1>;
+  }
+
+  if (error) {
+    return <h1>Error: {error}</h1>;
+  }
+  return (
+    <div>
+      <h1>Fetched Data</h1>
+      <ol>
+        {data.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
+      </ol>
+    </div>
+  );
 };
+
+export default Stories;

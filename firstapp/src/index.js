@@ -31,6 +31,7 @@ import Navigation from "./Navigation";
 import Paragraph from "./Paragraph";
 import { Secondpara, Thirdpara } from "./Paragraph";
 import Heading from "./Heading";
+import Stories from "./Fetch";
 // import Hook from "./Hook";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
@@ -66,7 +67,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <AuthForm />
+    <Stories />
   </>,
   document.getElementById("root")
 );
