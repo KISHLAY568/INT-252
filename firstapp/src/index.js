@@ -33,6 +33,7 @@ import { Secondpara, Thirdpara } from "./Paragraph";
 import Heading from "./Heading";
 import Stories from "./Fetch";
 import Get from "./Get.jsx";
+import Post from "./Post.jsx";
 // import Hook from "./Hook";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
@@ -68,7 +69,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <Get />
+    <Post />
   </>,
   document.getElementById("root")
 );

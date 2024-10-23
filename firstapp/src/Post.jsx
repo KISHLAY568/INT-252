@@ -20,4 +20,20 @@ const Post = () => {
         setError(error.message);
       });
   };
+
+  return (
+    <div>
+      <button onClick={handlePostRequest}>send post request</button>
+      {error && <p>Error: {error}</p>}
+      {responseData && (
+        <div>
+          <h3>Response Data:</h3>
+          <p>Title: {responseData.title}</p>
+          <p>Body: {responseData.body}</p>
+        </div>
+      )}
+    </div>
+  );
 };
+
+export default Post;
