@@ -32,6 +32,7 @@ import Paragraph from "./Paragraph";
 import { Secondpara, Thirdpara } from "./Paragraph";
 import Heading from "./Heading";
 import Stories from "./Fetch";
+import Get from "./Get.jsx";
 // import Hook from "./Hook";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
@@ -67,7 +68,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <Stories />
+    <Get />
   </>,
   document.getElementById("root")
 );
