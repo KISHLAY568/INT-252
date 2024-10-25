@@ -35,6 +35,9 @@ import Stories from "./Fetch";
 import Get from "./Get.jsx";
 import Post from "./Post.jsx";
 import Put from "./Put.jsx";
+import AddPost from "./AddPost.jsx";
+import Router1 from "./Router1.jsx";
+import FetchUser from "./Activity10.jsx";
 // import Hook from "./Hook";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
@@ -70,7 +73,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <Put />
+    <FetchUser />
   </>,
   document.getElementById("root")
 );
