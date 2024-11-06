@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
+import "./Router1.css";
 const Home = () => <h2>Home Page</h2>;
 const About = () => <h2>About Us</h2>;
 const Contact = () => <h2>Contact Page</h2>;

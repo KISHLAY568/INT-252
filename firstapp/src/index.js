@@ -73,7 +73,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <AddPost />
+    <Router1 />
   </>,
   document.getElementById("root")
 );
