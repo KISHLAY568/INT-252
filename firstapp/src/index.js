@@ -73,7 +73,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <FetchUser />
+    <AddPost />
   </>,
   document.getElementById("root")
 );
