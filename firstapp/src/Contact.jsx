@@ -4,3 +4,4 @@ function Contact() {
   const method = queryParams.get("method");
   return <h1>Contact method: {method}</h1>;
 }
+export default Contact;

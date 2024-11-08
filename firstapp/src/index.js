@@ -60,7 +60,7 @@ import QueryParam from "./Param.jsx";
 // );
 
 ReactDOM.render(
-  <BrowserRouter>
+  <>
     {/* <GetTimeButton /> */}
     {/* <Propvalidation /> */}
     {/* <Navigation />
@@ -78,7 +78,7 @@ ReactDOM.render(
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
     <QueryParam />
-  </BrowserRouter>,
+  </>,
   document.getElementById("root")
 );
 
