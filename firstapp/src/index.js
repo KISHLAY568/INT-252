@@ -17,6 +17,8 @@
 // reportWebVitals();
 import ReactDOM from "react-dom";
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 import Hook from "./Activity5.jsx";
 import Useref from "./Regi.jsx";
 import Usereducer from "./Usereducer.jsx";
@@ -42,6 +44,7 @@ import FetchUser from "./Activity10.jsx";
 import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
 import Propvalidation from "./propsvalidation";
+import SearchComponent from "./Example.jsx";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 // import* as ques from './Paragraph';
@@ -56,7 +59,7 @@ import Propvalidation from "./propsvalidation";
 // );
 
 ReactDOM.render(
-  <>
+  <BrowserRouter>
     {/* <GetTimeButton /> */}
     {/* <Propvalidation /> */}
     {/* <Navigation />
@@ -73,8 +76,8 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <Router1 />
-  </>,
+    <SearchComponent />
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
