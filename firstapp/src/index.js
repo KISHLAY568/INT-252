@@ -45,6 +45,7 @@ import Registration from "./Registration";
 import GetTimeButton from "./GetTimeButton";
 import Propvalidation from "./propsvalidation";
 import SearchComponent from "./Example.jsx";
+import QueryParam from "./Param.jsx";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 // import* as ques from './Paragraph';
@@ -76,7 +77,7 @@ ReactDOM.render(
     {/* <Img /> */}
     {/* <Hook/> */}
     {/* <Formvalidation /> */}
-    <SearchComponent />
+    <QueryParam />
   </BrowserRouter>,
   document.getElementById("root")
 );
